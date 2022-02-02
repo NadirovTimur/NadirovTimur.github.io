@@ -1,2 +1,2 @@
-# NadirovTimur.github.io
+# Надиров Тимур
 Мой первый сайт
