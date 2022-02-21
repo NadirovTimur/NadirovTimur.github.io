@@ -1,5 +1,5 @@
 body {
-    height: 100px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@ body {
     border: 8px solid blue;
     border-radius: 50%;
     border-left-color: red;
-    animation: load 1.3 linear infinite;
+    animation: load 1.3s linear infinite;
 }
 
 @keyframes load {
