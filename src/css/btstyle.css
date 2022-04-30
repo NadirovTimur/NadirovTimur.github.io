@@ -131,7 +131,7 @@ main {
 .resume h2 {
     font-size: 25px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 60px;
     text-transform: uppercase;
 }
 
@@ -181,7 +181,7 @@ main {
 .services h2 {
     font-size: 25px;
     font-weight: bold;
-    margin-top: 90px;
+    margin-top: 60px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -279,7 +279,7 @@ main {
 .price h2 {
     font-size: 25px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
 
 }
@@ -336,13 +336,13 @@ td {
     height: 500px;
     width: 100%;
     text-align: center;
-    background: url(../img/черта.png) 50% 160px/auto no-repeat, url(../img/fonstat.png) 100% 100%/auto no-repeat;
+    background: url(../img/черта.png) 50% 120px/auto no-repeat, url(../img/fonstat.png) 100% 100%/auto no-repeat;
 }
 
 .stat h2 {
     font-size: 25px;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 60px;
     text-transform: uppercase;
 }
 
@@ -382,13 +382,13 @@ td {
     width: 100%;
     color: white;
     text-align: center;
-    background: url(../img/черта.png) 50% 160px/auto no-repeat, url(../img/foncontact.png) 100% 100%/auto no-repeat;
+    background: url(../img/черта.png) 50% 120px/auto no-repeat, url(../img/foncontact.png) 100% 100%/auto no-repeat;
 }
 
 .contacts h2 {
     font-size: 25px;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 60px;
     text-transform: uppercase;
 }
 
@@ -636,3 +636,4 @@ footer {
         z-index: 2;
     }
 }
+
