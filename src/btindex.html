@@ -12,6 +12,8 @@
     <title>Тимур Надиров - веб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <link rel="stylesheet" href="css/btstyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -28,12 +30,12 @@
                     <div class="px-0 col-xxl-6 col-xl-7 col-lg-8  offset-xxl-3 offset-xl-2 offset-lg-1 d-none d-lg-block">
                         <div class="menu">
                             <ul>
-                                <li><a href="#">обо мне</a></li>
-                                <li><a href="#">услуги</a></li>
-                                <li><a href="#">кейсы</a></li>
-                                <li><a href="#">прайсы</a></li>
-                                <li><a href="#">отзывы</a></li>
-                                <li><a href="#">контакты</a></li>
+                                <li><a href="#resume">обо мне</a></li>
+                                <li><a href="#services">услуги</a></li>
+                                <li><a href="#cases">кейсы</a></li>
+                                <li><a href="#price">прайсы</a></li>
+                                <li><a href="#responses">отзывы</a></li>
+                                <li><a href="#contacts">контакты</a></li>
                             </ul>
                         </div>
                     </div>
@@ -44,12 +46,12 @@
                             </a>
 
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">обо мне</a></li>
-                                <li><a class="dropdown-item" href="#">услуги</a></li>
-                                <li><a class="dropdown-item" href="#">кейсы</a></li>
-                                <li><a class="dropdown-item" href="#">прайсы</a></li>
-                                <li><a class="dropdown-item" href="#">отзывы</a></li>
-                                <li><a class="dropdown-item" href="#">контакты</a></li>
+                                <li><a class="dropdown-item" href="#resume">обо мне</a></li>
+                                <li><a class="dropdown-item" href="#services">услуги</a></li>
+                                <li><a class="dropdown-item" href="#cases">кейсы</a></li>
+                                <li><a class="dropdown-item" href="#price">прайсы</a></li>
+                                <li><a class="dropdown-item" href="#responses">отзывы</a></li>
+                                <li><a class="dropdown-item" href="#contacts">контакты</a></li>
                             </ul>
                         </div>
                     </div>
@@ -68,13 +70,38 @@
                             <h4>Фулл стек веб-разработчик</h4>
                             <input type="submit" value="Обо мне">
                             <input type="submit" value="Мои работы">
+                            <!-- Button trigger modal 
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>-->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="resume">
+        <section class="resume" id="resume">
             <div class="container">
                 <div class="row">
                     <div class="col-8 offset-2">
@@ -84,22 +111,23 @@
                             <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet mollitia quaerat sequi fuga delectus error, iusto tempora et facere quia, quas id reprehenderit soluta? Dignissimos blanditiis, corporis reiciendis nostrum labore.</h5>
                         </div>
                         <input type="submit" value="Скачать резюме">
+    
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="services">
+        <section class="services" id="services">
             <div class="container">
                 <div class="row">
                     <h2>Что я умею</h2>
-                    <ul class="mt-5 pt-5 d-none d-lg-block" >
+                    <ul class="mt-5 pt-5 d-none d-lg-block">
                         <li class="col-3 d-none d-lg-block"><b>Веб-дизайн</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eius aliquid voluptate deleniti velit natus?</li>
                         <li class="col-3 d-none d-lg-block"><b>Разработка</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eius aliquid voluptate deleniti velit natus?</li>
                         <li class="col-3 d-none d-lg-block"><b>CEO-оптимизация</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eius aliquid voluptate deleniti velit natus?</li>
                         <li class="col-3 d-none d-lg-block"><b>Маркетинг</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eius aliquid voluptate deleniti velit natus?</li>
                     </ul>
-                     <ul class="mt-5 d-lg-none">
+                    <ul class="mt-5 d-lg-none">
                         <li class="px-0 col-6  d-lg-none"><b>Веб-дизайн</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eius aliquid voluptate deleniti velit natus?</li>
                         <li class="px-0 col-6  d-lg-none"><b>Разработка</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eius aliquid voluptate deleniti velit natus?</li>
                         <li class="px-0 col-6  d-lg-none"><b>CEO-оптимизация</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eius aliquid voluptate deleniti velit natus?</li>
@@ -109,12 +137,37 @@
             </div>
         </section>
 
-        <section class="cases">
+        <section class="cases" id="cases">
             <div class="container">
                 <div class="row">
                     <h2>Кейсы</h2>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, possimus.</h3>
-                    <img class="pt-3" src="img/snimok.png" alt="">
+                  <!--  <img class="pt-3" src="img/snimok.png" alt="">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/snimok.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>-->
+                   <div class="fotorama">
+  <img src="https://s.fotorama.io/1.jpg">
+  <img src="https://s.fotorama.io/2.jpg">
+</div>
                     <div class="col-md-3 d-none d-md-block">
                         <h4>Client:</h4>
                         <h5>Какая-то компания</h5>
@@ -140,7 +193,7 @@
             </div>
         </section>
 
-        <section class="price">
+        <section class="price" id="price">
             <div class="container">
                 <div class="row">
                     <div class="boxprice col-10 offset-1">
@@ -160,15 +213,15 @@
                             <option value="adapt1">адаптивныйт</option>
                             <option value="adapt2">неадаптивный</option>
                         </select>
-                        <img class="pt-5" src="img/itog.png" width="100%" alt="">
+                        <img class="pt-5 image-link" src="img/itog.png" href="img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png" width="100%" alt="">
                         <table class="col-12">
                             <tr>
                                 <th>Сроки</th>
-                                <th>0</th>
+                                <th>term</th>
                             </tr>
                             <tr>
                                 <th>Стоимость</th>
-                                <th>0</th>
+                                <th>pric</th>
                             </tr>
                         </table>
                         <input class="col-lg-2 col" type="submit" value="Оставить заявку">
@@ -181,27 +234,27 @@
             <div class="container">
                 <div class="row">
                     <h2>немного статистики</h2>
-                    <ul class="mt-5 pt-5 d-none d-md-block">
-                        <li class="col-3 d-none d-md-block"> <b>300</b> <br> счатливых клиентов</li>
-                        <li class="col-3 d-none d-md-block"> <b>3000</b> <br>часов работы</li>
-                        <li class="col-3 d-none d-md-block"> <b>300</b> <br>проектов завершено</li>
-                        <li class="col-3 d-none d-md-block"> <b>30 </b> <br>наград получено</li>
+                    <ul class="element-animation mt-5 pt-5 d-none d-md-block">
+                        <li class="col-3 d-none d-md-block"> <b class="count" data-value="300">300</b> <br> счатливых клиентов</li>
+                        <li class="col-3 d-none d-md-block"> <b class="count" data-value="3000">3000</b> <br>часов работы</li>
+                        <li class="col-3 d-none d-md-block"> <b class="count" data-value="300">300</b> <br>проектов завершено</li>
+                        <li class="col-3 d-none d-md-block"> <b class="count" data-value="30">30 </b> <br>наград получено</li>
                     </ul>
-                    <ul  class="mt-5 d-lg-none">
-                        <li class="px-0 col-6  d-md-none"> <b>300</b> <br> счатливых клиентов</li>
-                        <li class="px-0 col-6  d-md-none"> <b>3000</b> <br>часов работы</li>
-                        <li class="px-0 col-6  d-md-none"> <b>300</b> <br>проектов завершено</li>
-                        <li class="px-0 col-6  d-md-none"> <b>30 </b> <br>наград получено</li>
+                    <ul class="element-animation mt-5 d-lg-none">
+                        <li class="px-0 col-6  d-md-none"> <b class="count" data-value="300">300</b> <br> счатливых клиентов</li>
+                        <li class="px-0 col-6  d-md-none"> <b class="count" data-value="3000">3000</b> <br>часов работы</li>
+                        <li class="px-0 col-6  d-md-none"> <b class="count" data-value="300">300</b> <br>проектов завершено</li>
+                        <li class="px-0 col-6  d-md-none"> <b class="count" data-value="30">30 </b> <br>наград получено</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section class="responses">
+        <section class="responses" id="responses">
 
         </section>
 
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="container">
                 <div class="row">
                     <h2>МОИ КОНТАКТЫ</h2>
@@ -234,8 +287,11 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/price.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <script src="js/myScript.js"></script>
 </body>
 
 </html>
