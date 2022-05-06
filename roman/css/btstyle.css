@@ -1,0 +1,410 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 110px;
+    background: #808080;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    line-height: 80px;
+    float: left;
+    text-align: center;
+    -webkit-animation: coming 2s ease;
+    -o-animation: coming 2s ease;
+    animation: coming 2s ease;
+}
+
+.profession {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    float: left;
+    text-align: center;
+    -webkit-animation: coming 2s ease;
+    -o-animation: coming 2s ease;
+    animation: coming 2s ease;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+
+.title_conteiner {
+    float: left;
+    color: #2c384a;
+    text-align: center;
+    width: 100%;
+    -webkit-animation: titlemove 1s ease forwards;
+    -o-animation: titlemove 1s ease forwards;
+    animation: titlemove 1s ease forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+.title_conteiner h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.title_conteiner input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin-top: 58px;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.title_conteiner input:hover {
+    color: white;
+    background: #344051;
+}
+
+.title_conteiner input:active {
+    transform: scale(1.1);
+}
+
+.resume {
+    float: left;
+    height: 720px;
+    width: 100%;
+    text-align: center;
+}
+
+.resume h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+
+
+.resume li {
+    margin-bottom: 30px;
+    font-family: calibri;
+    font-size: 30px;
+    text-align: left;
+     list-style: none; /* Убираем исходные маркеры */
+    padding-left: 70px; /* Смещаем текст вправо */ 
+    background: url(../img/galochka.png) no-repeat 0 50%;
+}
+
+.services {
+    float: left;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.services li {
+    padding-top: 250px;
+    float: left;
+    font-family: calibri;
+    font-size: 20px;
+    line-height: 15px;
+    background-color: black;
+}
+
+.services li:nth-child(1) {
+    background: url(../img/interier1.jpg) center top no-repeat;
+}
+
+.services li:nth-child(2) {
+    background: url(../img/interier2.jpg) center top no-repeat;
+}
+
+.services li:nth-child(3) {
+    background: url(../img/interier3.jpg) center top no-repeat;
+}
+
+
+.services b {
+    color: #d2851f;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+
+.stat {
+    float: left;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.stat h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.stat li {
+    float: left;
+    padding-top: 60px;
+    font-family: calibri;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.stat li:nth-child(1) {
+    background: url(../img/exp.png) center top no-repeat;
+}
+
+.stat li:nth-child(2) {
+    background: url(../img/otzivi.png) center top no-repeat;
+}
+
+.stat li:nth-child(3) {
+    background: url(../img/contract.png) center top no-repeat;
+}
+
+
+.stat b {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contacts {
+    float: left;
+    height: 300px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #808080;
+}
+
+.contacts h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.contacts h3 {
+    font-size: 15px;
+    color: black;
+}
+
+.contacts input {
+    height: 30px;
+    text-align: left;
+    color: black;
+    font-size: 13px;
+    border: 2px solid black;
+    transition: all 0.2s;
+}
+
+.contacts > input:focus {
+    border: 2px solid blue;
+}
+
+.knopka > input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: white;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 12px;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.knopka input:hover {
+    color: white;
+    background: #6d7682;
+}
+
+.knopka input:active {
+    transform: scale(1.1);
+}
+
+.responses {
+    float: left;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+
+footer {
+    float: left;
+    width: 100%;
+    height: 420px;
+    text-align: left;
+    background: #808080;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+@keyframes coming {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes titlemove {
+    from {
+        opacity: 0;
+        margin-left: -500px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 404px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+
+    .main {
+        height: 180%;
+    }
+
+
+    .title_conteiner {
+        float: left;
+        color: #2c384a;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .title_conteiner input {
+        height: 40px;
+        text-align: center;
+        border: 2px solid #6d7682;
+        background: none;
+        border-radius: 5px;
+        color: #6d7682;
+        font-size: 13px;
+        padding: 0px 16px;
+        margin-top: 58px;
+        transition: all 0.2s;
+        transform: scale(1);
+    }
+
+    .resume {
+        float: left;
+        height: 900px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .resume li {
+        margin-bottom: 30px;
+        font-family: calibri;
+        font-size: 30px;
+        background: url(../img/galochka.png) no-repeat 0 50%;
+    }
+
+    .services {
+        float: left;
+        height: 1200px;
+        width: 100%;
+        text-align: center;
+    }
+
+.services li {
+    padding-top: 250px;
+    float: left;
+    font-family: calibri;
+    font-size: 20px;
+    line-height: 15px;
+    background-color: black;
+}
+
+
+    .stat {
+        float: left;
+        height: 700px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    .contacts {
+        float: left;
+        height: 500px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        background-color: azure;
+    }
+    
+    .responses {
+    float: left;
+    height: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+    footer {
+        float: left;
+        width: 100%;
+        height: 0px;
+
+    }
+}
+
+@media (max-width: 520px) {
+
+   .resume li {
+    padding-bottom:15px;
+    font-family: calibri;
+    font-size: 20px;
+    }
+    .profession {
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+   
+   
+}
+}
