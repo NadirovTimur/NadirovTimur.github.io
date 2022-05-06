@@ -147,7 +147,7 @@ main {
     font-family: calibri;
 }
 
-.resume input {
+#downloadre {
     height: 35px;
     border: 2px solid #6d7682;
     background: none;
@@ -432,6 +432,11 @@ td {
     text-transform: uppercase;
 }
 
+.contacts a {
+    text-decoration: none;
+    color: white;
+}
+
 .contacts input {
     height: 30px;
     text-align: left;
@@ -478,6 +483,11 @@ td {
     transform: scale(1.1);
 }
 
+.map {
+    float: left;
+     width: 100%;
+    height: 450px;
+}
 
 footer {
     float: left;
@@ -636,5 +646,9 @@ footer {
         background: rgba(0, 0, 0, 0.4);
         z-index: 2;
     }
+}
+
+.active {
+    color: #d17700;
 }
 
