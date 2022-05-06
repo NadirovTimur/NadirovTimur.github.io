@@ -91,7 +91,10 @@ let windowWidth = location.href;
 
 console.log(windowWidth);*/
 
-
+$('#js-button').click(function(){
+	var value = $('#select option:selected').text();
+	$('#js-result').html('Результат: ' + value);
+});
 
 
 

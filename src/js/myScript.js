@@ -2,6 +2,37 @@ $(document).ready(function () {
     $('.image-link').magnificPopup({
         type: 'image'
     });
+    
+    new WOW().init();
+    
+    $("#inputTel").mask("+7(999) 999-9999");
+    
+    $('form').submit(function(event){
+        
+        if($("#inputTel").val() == "" || $("#inputEmail3").val() == ""){
+            event.preventDefault();
+            alert("Заполните поле");
+        }
+        
+    });
+    
+    $('form').submit(function(event){
+        event.preventDefault();
+        
+        $.ajax({
+            type: "POST",
+            url: "php/mail.php",
+            data: $(this).serialize()
+        }).done(function (){
+            $(this).find("input").val("");
+            alert("Успешно отправлено!");
+            $('form').trigger("reset");
+        });
+        return false;
+    });
+    
+    
+    
 });
 
 $('a[href^="#"]').click(function () {
@@ -34,7 +65,7 @@ $(window).scroll(() => {
 
 
 
-
+/* работает
 var type = prompt("Выберите тип сайта: 1 - корпоративный 2 - интернет-магазин");
 var design = prompt("Выберите тип сайта: 1 - красивый 2 - очень красивый");
 var adapt = prompt("Выберите тип сайта: 1 - адаптивный 2 - неадаптивный");
@@ -68,7 +99,7 @@ var term = t1 + t2 + t3;
 
 
 alert("Cтоимость сайта:" + pric + "руб. " + " Срок:" + term + "суток");
-
+*/
 
 $('#js-button').click(function () {
     var value = $('#type option:selected').text();
